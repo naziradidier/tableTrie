@@ -5,7 +5,7 @@
          return;
          for($i=0; $i<count($tableau); $i++){
              for($j= $i+1; $j<count($tableau); $j++){
-                 if($tableau[$j] < $tableau[$i]){
+                 if($tableau[$j] > $tableau[$i]){
                      $tmp = $tableau[$i];
                      $tableau[$i]= $tableau[$j];
                      $tableau[$j] =$tmp;
